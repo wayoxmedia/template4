@@ -7,7 +7,7 @@ ENV COMPOSER_ALLOW_SUPERUSER=1 \
     NODE_VERSION=18.17.0 \
     NVM_DIR=/root/.nvm \
     PATH="/root/.nvm/versions/node/v18.17.0/bin/:$PATH"
-
+    
 # Install system dependencies
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y --no-install-recommends \
@@ -24,22 +24,24 @@ RUN apt-get update && apt-get upgrade -y && \
         mariadb-client \
         ca-certificates \
         gnupg \
-        lsb-release && \
+        lsb-release \
+        build-essential \
+        autoconf \
+        pkg-config && \
     docker-php-ext-configure gd --with-freetype --with-jpeg && \
     docker-php-ext-install -j$(nproc) \
         gd \
+        zip \
         mysqli \
         pdo \
         pdo_mysql && \
+    pecl install xdebug && \
+    docker-php-ext-enable xdebug && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
-# Install PECL extensions
-RUN pecl install zip xdebug && \
-    docker-php-ext-enable zip xdebug
 
 # PHP and Apache configuration
 COPY ./docker/docker-php-ext-xdebug3-ext.ini /usr/local/etc/php/conf.d/docker-php-ext-xdebug-ext.ini
