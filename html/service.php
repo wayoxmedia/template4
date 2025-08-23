@@ -4,21 +4,21 @@
     <div class="row g-5">
       <div class="col-lg-4 col-md-6">
         <div class="bg-primary border-inner text-center text-white p-5">
-          <h4 class="text-uppercase mb-3"><?=TXT_BIRTHDAY2;?> Cake</h4>
+          <h4 class="text-uppercase mb-3"><?=TXT_BIRTHDAY2;?></h4>
           <p><?=TXT_PARAGRAPH_BIRTHDAY;?></p>
-          <a class="text-uppercase text-dark" href=""> <?BUTTON_READ_MORE;?> <i class="bi bi-arrow-right"></i></a>
+          <a class="text-uppercase text-dark" href="#"> <?BUTTON_READ_MORE;?> <i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="bg-primary border-inner text-center text-white p-5">
-          <h4 class="text-uppercase mb-3"><?=TXT_WEDDING2;?> Cake</h4>
+          <h4 class="text-uppercase mb-3"><?=TXT_WEDDING2;?></h4>
           <p><?=TXT_PARAGRAPH_WEDDING;?></p>
           <a class="text-uppercase text-dark" href=""><?BUTTON_READ_MORE;?> <i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="bg-primary border-inner text-center text-white p-5">
-          <h4 class="text-uppercase mb-3"><?=TXT_CUSTOM;?> Cake</h4>
+          <h4 class="text-uppercase mb-3"><?=TXT_CUSTOM;?></h4>
           <p><?=TXT_PARAGRAPH_CUSTOM2;?></p>
           <a class="text-uppercase text-dark" href=""><?=TXT_BUTTON;?><i class="bi bi-arrow-right"></i></a>
         </div>
