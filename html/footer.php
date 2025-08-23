@@ -89,9 +89,6 @@
 <div class="container-fluid text-secondary py-4" style="background: #111111;">
   <div class="container text-center">
     <p class="mb-0">&copy; <a class="text-white border-bottom" href="#"><?SITE_NAME;?></a><?TXT_ALL_RIGHTS_RESERVED;?>.
-
-      <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-      Designed by <a class="text-white border-bottom" href="#"><?=SITE_NAME?></a>
     </p>
     <br><?TXT_DISTRIBUTED_BY2?> <?TXT_DISTRIBUTED_BY;?> <a class="border-bottom" href="<?=SITE_DISTRIBUTED;?>" target="_blank"><?SITE_DISTRIBUTED;?></a>
   </div>
