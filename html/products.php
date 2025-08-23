@@ -24,7 +24,7 @@
               <div class="col-lg-6">
                 <div class="d-flex h-100">
                   <div class="flex-shrink-0">
-                    <img class="img-fluid" src="assets/img/cake-1.jpg" alt=""
+                    <img class="img-fluid" src="<?=IMG_PRODUCT1;?>" alt=""
                       style="width: 150px; height: 85px;">
                     <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_BIRTHDAY;?></h4>
                   </div>
@@ -38,7 +38,7 @@
               <div class="col-lg-6">
                 <div class="d-flex h-100">
                   <div class="flex-shrink-0">
-                    <img class="img-fluid" src="assets/img/cake-1.jpg" alt=""
+                    <img class="img-fluid" src="<?=IMG_PRODUCT1;?>" alt=""
                       style="width: 150px; height: 85px;">
                     <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_BIRTHDAY;?></h4>
                   </div>
@@ -52,7 +52,7 @@
                 <div class="col-lg-6">
                     <div class="d-flex h-100">
                       <div class="flex-shrink-0">
-                        <img class="img-fluid" src="assets/img/cake-1.jpg" alt=""
+                        <img class="img-fluid" src="<?=IMG_PRODUCT1;?>" alt=""
                           style="width: 150px; height: 85px;">
                         <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_BIRTHDAY;?></h4>
                       </div>
@@ -66,7 +66,7 @@
                 <div class="col-lg-6">
                     <div class="d-flex h-100">
                       <div class="flex-shrink-0">
-                        <img class="img-fluid" src="assets/img/cake-1.jpg" alt=""
+                        <img class="img-fluid" src="<?=IMG_PRODUCT1;?>" alt=""
                           style="width: 150px; height: 85px;">
                         <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_BIRTHDAY;?></h4>
                       </div>
@@ -80,7 +80,7 @@
                 <div class="col-lg-6">
                   <div class="d-flex h-100">
                     <div class="flex-shrink-0">
-                      <img class="img-fluid" src="assets/img/cake-1.jpg" alt=""
+                      <img class="img-fluid" src="<?=IMG_PRODUCT1;?>" alt=""
                         style="width: 150px; height: 85px;">
                       <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_BIRTHDAY;?></h4>
                     </div>
@@ -94,7 +94,7 @@
                 <div class="col-lg-6">
                   <div class="d-flex h-100">
                     <div class="flex-shrink-0">
-                      <img class="img-fluid" src="assets/img/cake-1.jpg" alt=""
+                      <img class="img-fluid" src="<?=IMG_PRODUCT1;?>" alt=""
                         style="width: 150px; height: 85px;">
                       <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_BIRTHDAY;?></h4>
                     </div>
@@ -112,7 +112,7 @@
             <div class="col-lg-6">
                 <div class="d-flex h-100">
                   <div class="flex-shrink-0">
-                    <img class="img-fluid" src="assets/img/cake-2.jpg" alt=""
+                    <img class="img-fluid" src="<?=IMG_PRODUCT2;?>" alt=""
                       style="width: 150px; height: 85px;">
                     <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_WEDDING;?></h4>
                   </div>
@@ -126,7 +126,7 @@
             <div class="col-lg-6">
               <div class="d-flex h-100">
                 <div class="flex-shrink-0">
-                  <img class="img-fluid" src="assets/img/cake-2.jpg" alt=""
+                  <img class="img-fluid" src="<?=IMG_PRODUCT2;?>" alt=""
                     style="width: 150px; height: 85px;">
                   <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_WEDDING;?></h4>
                 </div>
@@ -140,7 +140,7 @@
             <div class="col-lg-6">
                 <div class="d-flex h-100">
                   <div class="flex-shrink-0">
-                    <img class="img-fluid" src="assets/img/cake-2.jpg" alt=""
+                    <img class="img-fluid" src="<?=IMG_PRODUCT2;?>" alt=""
                       style="width: 150px; height: 85px;">
                     <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_WEDDING;?></h4>
                   </div>
@@ -154,7 +154,7 @@
             <div class="col-lg-6">
                 <div class="d-flex h-100">
                   <div class="flex-shrink-0">
-                    <img class="img-fluid" src="assets/img/cake-2.jpg" alt=""
+                    <img class="img-fluid" src="<?=IMG_PRODUCT2;?>" alt=""
                       style="width: 150px; height: 85px;">
                     <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_WEDDING;?></h4>
                   </div>
@@ -168,7 +168,7 @@
             <div class="col-lg-6">
               <div class="d-flex h-100">
                 <div class="flex-shrink-0">
-                  <img class="img-fluid" src="assets/img/cake-2.jpg" alt=""
+                  <img class="img-fluid" src="<?=IMG_PRODUCT2;?>" alt=""
                     style="width: 150px; height: 85px;">
                   <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_WEDDING;?></h4>
                 </div>
@@ -182,7 +182,7 @@
             <div class="col-lg-6">
               <div class="d-flex h-100">
                 <div class="flex-shrink-0">
-                  <img class="img-fluid" src="assets/img/cake-2.jpg" alt=""
+                  <img class="img-fluid" src="<?=IMG_PRODUCT2;?>" alt=""
                     style="width: 150px; height: 85px;">
                   <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_WEDDING;?></h4>
                 </div>
@@ -200,7 +200,7 @@
             <div class="col-lg-6">
               <div class="d-flex h-100">
                 <div class="flex-shrink-0">
-                  <img class="img-fluid" src="assets/img/cake-3.jpg" alt=""
+                  <img class="img-fluid" src="<?=IMG_PRODUCT3;?>" alt=""
                     style="width: 150px; height: 85px;">
                   <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_WEDDING;?></h4>
                 </div>
@@ -214,7 +214,7 @@
               <div class="col-lg-6">
                 <div class="d-flex h-100">
                   <div class="flex-shrink-0">
-                    <img class="img-fluid" src="assets/img/cake-3.jpg" alt=""
+                    <img class="img-fluid" src="<?=IMG_PRODUCT3;?>" alt=""
                       style="width: 150px; height: 85px;">
                     <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_CUSTOM;?></h4>
                   </div>
@@ -228,7 +228,7 @@
               <div class="col-lg-6">
                 <div class="d-flex h-100">
                   <div class="flex-shrink-0">
-                    <img class="img-fluid" src="assets/img/cake-3.jpg" alt=""
+                    <img class="img-fluid" src="<?=IMG_PRODUCT3;?>" alt=""
                       style="width: 150px; height: 85px;">
                     <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_CUSTOM;?></h4>
                   </div>
@@ -242,7 +242,7 @@
               <div class="col-lg-6">
                 <div class="d-flex h-100">
                   <div class="flex-shrink-0">
-                    <img class="img-fluid" src="assets/img/cake-3.jpg" alt=""
+                    <img class="img-fluid" src="<?=IMG_PRODUCT3;?>" alt=""
                       style="width: 150px; height: 85px;">
                     <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_CUSTOM;?></h4>
                   </div>
@@ -256,7 +256,7 @@
               <div class="col-lg-6">
                 <div class="d-flex h-100">
                   <div class="flex-shrink-0">
-                    <img class="img-fluid" src="assets/img/cake-3.jpg" alt=""
+                    <img class="img-fluid" src="<?=IMG_PRODUCT3;?>" alt=""
                       style="width: 150px; height: 85px;">
                     <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_CUSTOM;?></h4>
                   </div>
@@ -270,7 +270,7 @@
               <div class="col-lg-6">
                 <div class="d-flex h-100">
                   <div class="flex-shrink-0">
-                    <img class="img-fluid" src="assets/img/cake-3.jpg" alt=""
+                    <img class="img-fluid" src="<?=IMG_PRODUCT3;?>" alt=""
                       style="width: 150px; height: 85px;">
                     <h4 class="bg-dark text-primary p-2 m-0"><?=PRICE_CUSTOM;?></h4>
                   </div>

@@ -8,7 +8,7 @@
     <div class="owl-carousel testimonial-carousel">
       <div class="testimonial-item bg-dark text-white border-inner p-4">
         <div class="d-flex align-items-center mb-3">
-          <img class="img-fluid flex-shrink-0" src="assets/img/testimonial-1.jpg"
+          <img class="img-fluid flex-shrink-0" src="<?=IMG_TESTIMONIAL1;?>"
             style="width: 60px; height: 60px;">
           <div class="ps-3">
             <h4 class="text-primary text-uppercase mb-1"><?=TXT_NAME_CLIENT1;?></h4>
@@ -20,7 +20,7 @@
       </div>
       <div class="testimonial-item bg-dark text-white border-inner p-4">
         <div class="d-flex align-items-center mb-3">
-          <img class="img-fluid flex-shrink-0" src="assets/img/testimonial-2.jpg"
+          <img class="img-fluid flex-shrink-0" src="<?=IMG_TESTIMONIAL2;?>"
             style="width: 60px; height: 60px;">
           <div class="ps-3">
             <h4 class="text-primary text-uppercase mb-1"><?=TXT_NAME_CLIENT2;?></h4>
@@ -32,7 +32,7 @@
       </div>
       <div class="testimonial-item bg-dark text-white border-inner p-4">
         <div class="d-flex align-items-center mb-3">
-          <img class="img-fluid flex-shrink-0" src="assets/img/testimonial-3.jpg"
+          <img class="img-fluid flex-shrink-0" src="<?=IMG_TESTIMONIAL3;?>"
           style="width: 60px; height: 60px;">
           <div class="ps-3">
             <h4 class="text-primary text-uppercase mb-1"><?=TXT_NAME_CLIENT3;?></h4>
@@ -44,7 +44,7 @@
       </div>
       <div class="testimonial-item bg-dark text-white border-inner p-4">
         <div class="d-flex align-items-center mb-3">
-          <img class="img-fluid flex-shrink-0" src="assets/img/testimonial-4.jpg"
+          <img class="img-fluid flex-shrink-0" src="<?=IMG_TESTIMONIAL4;?>"
             style="width: 60px; height: 60px;">
           <div class="ps-3">
             <h4 class="text-primary text-uppercase mb-1"><?=TXT_NAME_CLIENT4;?></h4>

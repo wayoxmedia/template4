@@ -9,7 +9,6 @@ $(document).ready(function() {
   // Bind Events
   // When the form is submitted.
   $subscribeForm.submit(function(event) {
-    debugger;
     event.preventDefault();
     let $pMessage = $('#pMessage');
     let arrErrors = [];
