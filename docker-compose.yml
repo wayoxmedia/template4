@@ -1,7 +1,7 @@
 services:
   php-apache-environment:
-    image: template2:1.0.0
-    container_name: template2
+    image: template4:1.0.0
+    container_name: template4
     build:
       context: ./
       dockerfile: docker/Dockerfile
