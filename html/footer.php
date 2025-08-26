@@ -10,8 +10,8 @@
                 <label for="selAddressType"></label>
                   <select id="selAddressType" name="selAddressType" class="form-select bg-primary text-white sans-serif" aria-label="Default select example">
                     <option selected>Select Subscription</option>
-                    <option value="e"><?=TXT_EMAIL?></option>
-                    <option value="p"><?=TXT_PHONE?></option>
+                    <option value="e"><?= TXT_EMAIL?></option>
+                    <option value="p"><?= TXT_PHONE?></option>
                   </select>
                 <div class="input-group">
                   <input type="text"
@@ -19,7 +19,7 @@
                   name="iptAddress"
                   class="form-control border-white p-3 form-control "
                   placeholder="">
-                  <button type='submit' class="btn btn-primary" id="btnSubmitSubscribe"><?=TXT_SIGN_UP?></button>
+                  <button type='submit' class="btn btn-primary" id="btnSubmitSubscribe"><?= TXT_SIGN_UP?></button>
                 </div>
               </form>
                <div class="subscribe-footer pb-3">
@@ -60,25 +60,25 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-              <h4 class="text-primary text-uppercase mb-4"><?=TXT_QUICK_LINKS;?></h4>
+              <h4 class="text-primary text-uppercase mb-4"><?= TXT_QUICK_LINKS;?></h4>
               <div class="d-flex flex-column justify-content-start">
                 <a class="text-secondary mb-2" href="#"><i
-                  class="bi bi-arrow-right text-primary me-2"></i><?=TXT_HOME2?></a>
+                  class="bi bi-arrow-right text-primary me-2"></i><?= TXT_HOME2?></a>
                 <a class="text-secondary mb-2" href="#"><i
-                  class="bi bi-arrow-right text-primary me-2"></i><?=TXT_ABOUT2;?></a>
+                  class="bi bi-arrow-right text-primary me-2"></i><?= TXT_ABOUT2;?></a>
                 <a class="text-secondary mb-2" href="#"><i
-                  class="bi bi-arrow-right text-primary me-2"></i><?=TXT_OUR_SERVICES2;?></a>
+                  class="bi bi-arrow-right text-primary me-2"></i><?= TXT_OUR_SERVICES2;?></a>
                 <a class="text-secondary mb-2" href="#"><i
-                  class="bi bi-arrow-right text-primary me-2"></i><?=TXT_MEET_THE_TEAM2;?></a>
+                  class="bi bi-arrow-right text-primary me-2"></i><?= TXT_MEET_THE_TEAM2;?></a>
                 <a class="text-secondary mb-2" href="#"><i
-                  class="bi bi-arrow-right text-primary me-2"></i><?=TXT_LATEST_BLOG;?></a>
+                  class="bi bi-arrow-right text-primary me-2"></i><?= TXT_LATEST_BLOG;?></a>
                 <a class="text-secondary" href="#"><i
-                  class="bi bi-arrow-right text-primary me-2"></i><?=TXT_CONTACT;?></a>
+                  class="bi bi-arrow-right text-primary me-2"></i><?= TXT_CONTACT;?></a>
               </div>
             </div>
             <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-              <h4 class="text-primary text-uppercase mb-4"><?=TXT_NEWSLETTER;?></h4>
-              <p><?=TXT_PARAGRAPH_NEWSLETTER;?></p>
+              <h4 class="text-primary text-uppercase mb-4"><?= TXT_NEWSLETTER;?></h4>
+              <p><?= TXT_PARAGRAPH_NEWSLETTER;?></p>
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@
     <p class="mb-0">&copy; <a class="text-white border-bottom" href="#"><?= SITE_NAME;
     ?></a><?= TXT_ALL_RIGHTS_RESERVED;?>.
     </p>
-    <br><?= TXT_DISTRIBUTED_BY2?> <?= TXT_DISTRIBUTED_BY;?> <a class="border-bottom" href="<?=SITE_DISTRIBUTED;?>"
+    <br><?= TXT_DISTRIBUTED_BY2?> <?= TXT_DISTRIBUTED_BY;?> <a class="border-bottom" href="<?= SITE_DISTRIBUTED;?>"
                                                             target="_blank"><?= SITE_DISTRIBUTED;?></a>
   </div>
 </div>
