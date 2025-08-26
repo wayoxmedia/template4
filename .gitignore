@@ -28,6 +28,7 @@ composer.lock
 ########################
 ### App logs
 html/logs
+logs
 
 ########################
 ### Documentation
