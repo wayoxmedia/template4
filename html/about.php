@@ -29,7 +29,7 @@
               style="width: 90px; height: 90px;">
               <i class="fa fa-award fa-2x text-white"></i>
             </div>
-            <h4 class="text-uppercase"><?TXT_AWARD_WINNING;?></h4>
+            <h4 class="text-uppercase"><?= TXT_AWARD_WINNING;?></h4>
             <p class="mb-0"><?=TXT_PARAGRAPH4;?></p>
           </div>
         </div>
