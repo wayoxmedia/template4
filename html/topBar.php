@@ -5,8 +5,8 @@
       <div class="d-inline-flex align-items-center justify-content-center">
         <i class="bi bi-envelope fs-1 text-primary me-3"></i>
         <div class="text-start">
-          <h6 class="text-uppercase mb-1"><?=TXT_EMAIL_US;?></h6>
-          <span><?=SUPPORT_EMAIL;?></span>
+          <h6 class="text-uppercase mb-1"><?= TXT_EMAIL_US;?></h6>
+          <span><?= SUPPORT_EMAIL;?></span>
         </div>
       </div>
     </div>
@@ -14,7 +14,7 @@
       <div class="d-inline-flex align-items-center justify-content-center">
         <a href="#" class="navbar-brand">
           <h1 class="m-0 text-uppercase text-white"><i
-          class="fa fa-birthday-cake fs-1 text-dark me-3"></i><?=SITE_NAME;?></h1>
+          class="fa fa-birthday-cake fs-1 text-dark me-3"></i><?= SITE_NAME;?></h1>
         </a>
       </div>
     </div>
@@ -22,8 +22,8 @@
       <div class="d-inline-flex align-items-center justify-content-center">
         <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
         <div class="text-start">
-          <h6 class="text-uppercase mb-1"><?=TXT_CALL;?></h6>
-          <span><?=PHONE_NUMBER;?></span>
+          <h6 class="text-uppercase mb-1"><?= TXT_CALL;?></h6>
+          <span><?= PHONE_NUMBER;?></span>
         </div>
       </div>
     </div>

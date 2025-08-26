@@ -9,18 +9,18 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <div class="navbar-nav ms-auto mx-lg-auto py-0">
-      <a href="#" class="nav-item nav-link active"><?=TXT_HOME;?></a>
-      <a href="#" class="nav-item nav-link"><?=TXT_ABOUT?></a>
-      <a href="#" class="nav-item nav-link"><?=TXT_MENU;?></a>
-      <a href="#" class="nav-item nav-link"><?=TXT_MASTER_CHEFS?></a>
+      <a href="#" class="nav-item nav-link active"><?= TXT_HOME;?></a>
+      <a href="#" class="nav-item nav-link"><?= TXT_ABOUT?></a>
+      <a href="#" class="nav-item nav-link"><?= TXT_MENU;?></a>
+      <a href="#" class="nav-item nav-link"><?= TXT_MASTER_CHEFS?></a>
       <div class="nav-item dropdown">
-        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?=TXT_PAGES;?></a>
+        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?= TXT_PAGES;?></a>
         <div class="dropdown-menu m-0">
-          <a href="#" class="dropdown-item"><?=TXT_SERVICE;?></a>
-          <a href="#" class="dropdown-item"><?=TXT_TESTIMONIAL;?></a>
+          <a href="#" class="dropdown-item"><?= TXT_SERVICE;?></a>
+          <a href="#" class="dropdown-item"><?= TXT_TESTIMONIAL;?></a>
         </div>
       </div>
-        <a href="#" class="nav-item nav-link"><?=TXT_TESTIMONIAL;?></a>
+        <a href="#" class="nav-item nav-link"><?= TXT_TESTIMONIAL;?></a>
     </div>
   </div>
 </nav>

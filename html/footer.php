@@ -37,18 +37,18 @@
         <div class="col-lg-8 col-md-6">
           <div class="row gx-5">
             <div class="col-lg-4 col-md-12 pt-5 mb-5">
-              <h4 class="text-primary text-uppercase mb-4"><?=TXT_GET_IN_TOUCH;?></h4>
+              <h4 class="text-primary text-uppercase mb-4"><?= TXT_GET_IN_TOUCH;?></h4>
               <div class="d-flex mb-2">
                 <i class="bi bi-geo-alt text-primary me-2"></i>
-                <p class="mb-0"><?=TXT_ADDRESS;?></p>
+                <p class="mb-0"><?= TXT_ADDRESS;?></p>
               </div>
               <div class="d-flex mb-2">
                 <i class="bi bi-envelope-open text-primary me-2"></i>
-                <p class="mb-0"><?=TXT_EMAIL_US2;?></p>
+                <p class="mb-0"><?= TXT_EMAIL_US2;?></p>
               </div>
               <div class="d-flex mb-2">
                 <i class="bi bi-telephone text-primary me-2"></i>
-                <p class="mb-0"><?=PHONE_NUMBER;?></p>
+                <p class="mb-0"><?= PHONE_NUMBER;?></p>
               </div>
               <div class="d-flex mt-4">
                 <a class="btn btn-lg btn-primary btn-lg-square border-inner rounded-0 me-2" href="#"><i

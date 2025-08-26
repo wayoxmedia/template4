@@ -2,8 +2,8 @@
 <div class="container-fluid pt-5">
   <div class="container">
     <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
-      <h2 class="text-primary font-secondary"><?=TXT_ABOUT;?></h2>
-      <h1 class="display-4 text-uppercase">Welcome To <?=SITE_NAME;?></h1>
+      <h2 class="text-primary font-secondary"><?= TXT_ABOUT;?></h2>
+      <h1 class="display-4 text-uppercase">Welcome To <?= SITE_NAME;?></h1>
     </div>
     <div class="row gx-5">
       <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 400px;">
@@ -21,8 +21,8 @@
               style="width: 90px; height: 90px;">
               <i class="fa fa-heartbeat fa-2x text-white"></i>
             </div>
-            <h4 class="text-uppercase">100% <?=TXT_HEALTHY;?></h4>
-            <p class="mb-0"><?=TXT_PARAGRAPH3;?></p>
+            <h4 class="text-uppercase">100% <?= TXT_HEALTHY;?></h4>
+            <p class="mb-0"><?= TXT_PARAGRAPH3;?></p>
           </div>
           <div class="col-sm-6">
             <div class="d-flex align-items-center justify-content-center bg-primary border-inner mb-4"
@@ -30,7 +30,7 @@
               <i class="fa fa-award fa-2x text-white"></i>
             </div>
             <h4 class="text-uppercase"><?= TXT_AWARD_WINNING;?></h4>
-            <p class="mb-0"><?=TXT_PARAGRAPH4;?></p>
+            <p class="mb-0"><?= TXT_PARAGRAPH4;?></p>
           </div>
         </div>
       </div>
