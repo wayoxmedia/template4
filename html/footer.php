@@ -10,8 +10,8 @@
                 <label for="selAddressType"></label>
                   <select id="selAddressType" name="selAddressType" class="form-select bg-primary text-white sans-serif" aria-label="Default select example">
                     <option selected>Select Subscription</option>
-                    <option value="e"><?TXT_EMAIL?></option>
-                    <option value="p"><?TXT_PHONE?></option>
+                    <option value="e"><?=TXT_EMAIL?></option>
+                    <option value="p"><?=TXT_PHONE?></option>
                   </select>
                 <div class="input-group">
                   <input type="text"
@@ -19,7 +19,7 @@
                   name="iptAddress"
                   class="form-control border-white p-3 form-control "
                   placeholder="">
-                  <button type='submit' class="btn btn-primary" id="btnSubmitSubscribe"><?TXT_SIGN_UP?></button>
+                  <button type='submit' class="btn btn-primary" id="btnSubmitSubscribe"><?=TXT_SIGN_UP?></button>
                 </div>
               </form>
                <div class="subscribe-footer pb-3">
@@ -88,9 +88,11 @@
 
 <div class="container-fluid text-secondary py-4" style="background: #111111;">
   <div class="container text-center">
-    <p class="mb-0">&copy; <a class="text-white border-bottom" href="#"><?SITE_NAME;?></a><?TXT_ALL_RIGHTS_RESERVED;?>.
+    <p class="mb-0">&copy; <a class="text-white border-bottom" href="#"><?= SITE_NAME;
+    ?></a><?= TXT_ALL_RIGHTS_RESERVED;?>.
     </p>
-    <br><?TXT_DISTRIBUTED_BY2?> <?TXT_DISTRIBUTED_BY;?> <a class="border-bottom" href="<?=SITE_DISTRIBUTED;?>" target="_blank"><?SITE_DISTRIBUTED;?></a>
+    <br><?= TXT_DISTRIBUTED_BY2?> <?= TXT_DISTRIBUTED_BY;?> <a class="border-bottom" href="<?=SITE_DISTRIBUTED;?>"
+                                                            target="_blank"><?= SITE_DISTRIBUTED;?></a>
   </div>
 </div>
 <!-- Footer End -->
