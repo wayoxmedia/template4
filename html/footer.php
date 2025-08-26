@@ -8,10 +8,13 @@
           <form method="post"
                id="subscribeForm">
                 <label for="selAddressType"></label>
-                  <select id="selAddressType" name="selAddressType" class="form-select bg-primary text-white sans-serif" aria-label="Default select example">
+                  <select id="selAddressType"
+                  name="selAddressType"
+                  class="form-select bg-primary text-white sans-serif"
+                  aria-label="Default select example">
                     <option selected>Select Subscription</option>
-                    <option value="e"><?TXT_EMAIL?></option>
-                    <option value="p"><?TXT_PHONE?></option>
+                    <option value="e"><?=TXT_EMAIL;?></option>
+                    <option value="p"><?=TXT_PHONE;?></option>
                   </select>
                 <div class="input-group">
                   <input type="text"
@@ -19,7 +22,9 @@
                   name="iptAddress"
                   class="form-control border-white p-3 form-control "
                   placeholder="">
-                  <button type='submit' class="btn btn-primary" id="btnSubmitSubscribe"><?TXT_SIGN_UP?></button>
+                  <button type='submit'
+                  class="btn btn-primary"
+                  id="btnSubmitSubscribe"><?=TXT_SIGN_UP;?></button>
                 </div>
               </form>
                <div class="subscribe-footer pb-3">

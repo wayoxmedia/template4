@@ -17,7 +17,7 @@ $(document).ready(function() {
     // Reset Elements and Errors (if any)
     $pMessage.html('');
     $pMessage.addClass('d-none');
-    $pMessage.removeClass('text-danger');
+    $pMessage.removeClass('text-light');
     $ulErrors.empty();
     $ulErrors.addClass('d-none');
 
@@ -50,11 +50,11 @@ $(document).ready(function() {
     else if (selectedAddressTypeValue === 'p') {
       if ($iptAddress.val().length > 15) {
         isValid = false;
-        arrErrors.push('El campo de dirección no puede exceder los 15 caracteres.');
+        arrErrors.push('El campo de teléfono no puede exceder los 15 caracteres.');
       }
       if ($iptAddress.val().length < 6) {
         isValid = false;
-        arrErrors.push('El campo de dirección debe tener al menos 8 caracteres.');
+        arrErrors.push('El campo de teléfono debe tener al menos 6 caracteres.');
       }
       if (!isValidPhoneNumber($iptAddress.val())) {
         isValid = false;
@@ -81,12 +81,12 @@ $(document).ready(function() {
         success: function(data) {
           $pMessage.html(data.message || 'Formulario enviado correctamente.');
           $pMessage.removeClass('d-none');
-          $pMessage.addClass('text-success');
+          $pMessage.addClass('text-light');
         },
         error: function(xhr) {
           $pMessage.html(xhr.responseJSON.message || 'Ocurrió un error al procesar el formulario.');
           $pMessage.removeClass('d-none');
-          $pMessage.addClass('text-danger');
+          $pMessage.addClass('text-light');
         }
       });
     }
@@ -101,13 +101,13 @@ $(document).ready(function() {
 
       let pErrorMsg = 'Por favor, corrija ' + pluralOrNot + ' antes de enviar el formulario.';
       $pMessage.html(pErrorMsg);
-      $pMessage.addClass('text-danger');
+      $pMessage.addClass('text-light');
       $pMessage.removeClass('d-none');
       // Add errors to the list
       arrErrors.forEach(function(error) {
         let li = $('<li></li>');
         li.text(error);
-        li.addClass('text-danger');
+        li.addClass('text-light');
         $ulErrors.append(li);
       });
       $ulErrors.removeClass('d-none');
